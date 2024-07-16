@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IM Fell DW Pica";
+    color: #fff; /*fontcolor*/
+}
+
+body {
+    background-color: #2b1716; /*background color if it didnt have an image*/
+    background: url(../img/background.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.menu  {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 100;
+    padding: 20px;
+    background-color: #878e76;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0;
+}
+
+ul li a:hover {
+    color: #797979; /*color del texto*/
+    background-color:var(--num);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff; /*font color*/
+    font-size: x-large;
+    position: relative;
+    /*transition: 0.8s all linear;*/
+    padding: 0px 7px;
+    background-color: #878e76;
+}
+
+ul li a::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #8d9d90; /*effect color*/
+    z-index: -1;
+}
+
+ul li a:hover::before {
+    animation: ani 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes ani {
+    0% {
+        width: 0%;
+        height: 1px;
+        left: 50%;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+        left: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 50px;
+        left: 0;
+    }
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 690px; /*ir cambiando a medida que se agregan cosas*/
+    position: relative;
+    background: #bbdb9b; /*url(../img/background.png);*/  
+    background-size: cover;
+    background-attachment: fixed;    
+    /* background-image: url(../img/background.png);*/    
+}
+
+/* DIV */
+
+div {
+    border-color: aqua;
+    border-width: 2px;
+    border-style: none;
+    width: 100%;
+} 
