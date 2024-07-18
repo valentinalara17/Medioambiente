@@ -11,8 +11,14 @@ body {
     background: url(../img/background.JPG);
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
+    height: 690px; /*ir cambiando a medida que se agregan cosas*/
+    position: relative;
+    background: #bbdb9b; /*url(../img/background.png);*/  
+    background-size: cover;
+    background-attachment: fixed;    
+    /* background-image: url(../img/background.png);*/
 }
-
 
 .menu  {
     display: flex;
@@ -82,16 +88,9 @@ ul li a:hover::before {
     }
 }
 
-/*HEADER*/
-
-header {
-    width: 100%;
-    height: 690px; /*ir cambiando a medida que se agregan cosas*/
-    position: relative;
-    background: #bbdb9b; /*url(../img/background.png);*/  
-    background-size: cover;
-    background-attachment: fixed;    
-    /* background-image: url(../img/background.png);*/    
+/* MAIN */
+main {
+    padding: 30px;
 }
 
 /* DIV */
@@ -99,6 +98,42 @@ header {
 div {
     border-color: aqua;
     border-width: 2px;
-    border-style: none;
+    border-style: dotted;
     width: 100%;
 } 
+
+.container {
+    padding-top: 50px;
+    columns: 3;
+    background: #333;
+    width: 1200px;
+    column-gap: 10px;
+    margin: 0 auto;
+}
+
+.box {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 0px 5px 10px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #abc4a1;
+    width: 100%;
+    height: 100%;
+}
+
+.box img {
+    width: 100%; 
+}
+
+.box h2 {
+    background: #abc4a1;
+    margin: 5px 0px;
+    padding: 0 10px;
+}
+
+.box p {
+    margin: 0;
+    padding: 10px;
+    background: #abc4a1;
+}
