@@ -1,0 +1,34 @@
+/* Para dejar espacio y que el footer quede pegado abajo de todo */
+body {
+    min-height: 100vh; /*altura del dispositivo*/
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto; 
+}
+
+/*pie de página*/
+footer {
+    background-color: rgb(74, 146, 105);
+}
+.blanco {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pie {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#cet-pie {
+    font-size: large;
+}
+#imagen-pie {
+    height: 58%;
+    width: 25%;
+}
+#texto-pie {
+    margin-left: 2%;
+}
+/* fin de pie */
