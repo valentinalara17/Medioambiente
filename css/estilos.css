@@ -8,6 +8,29 @@ footer {
     margin-top: auto; 
 }
 
+/* encabezado */
+header {
+    display: flex;
+    align-items: center;
+}
+#ciudad-sust {
+    color: rgb(74, 146, 105);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20%;
+}
+#ciudad {
+    height: 30%;
+    width: 15%;
+}
+/*fin de encabezado*/
+
+/*principal*/
+main {
+    margin-left: 5%;
+}
+/*final*/
+
+
 /*pie de página*/
 footer {
     background-color: rgb(74, 146, 105);
@@ -25,10 +48,11 @@ footer {
     font-size: large;
 }
 #imagen-pie {
-    height: 58%;
-    width: 25%;
+    height: 68%;
+    width: 42%;
 }
 #texto-pie {
     margin-left: 2%;
 }
 /* fin de pie */
+
