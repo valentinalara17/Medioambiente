@@ -8,8 +8,79 @@ footer {
     margin-top: auto; 
 }
 
+/*MENU*/
+
+.menu  {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 52px;
+    position: fixed;
+    z-index: 100;
+    padding: 20px;
+    background-color: #878e76;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0;
+}
+
+ul li a:hover {
+    color: #797979; /*color del texto*/
+    background-color:var(--num);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff; /*font color*/
+    font-size: x-large;
+    position: relative;
+    /*transition: 0.8s all linear;*/
+    padding: 0px 7px;
+    background-color: #878e76;
+}
+
+ul li a::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #8d9d90; /*effect color*/
+    z-index: -1;
+}
+
+ul li a:hover::before {
+    animation: ani 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes ani {
+    0% {
+        width: 0%;
+        height: 1px;
+        left: 50%;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+        left: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 50px;
+        left: 0;
+    }
+}
+
 /* encabezado */
 header {
+    padding: 50px;
     display: flex;
     align-items: center;
 }
