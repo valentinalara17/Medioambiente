@@ -8,15 +8,34 @@ footer {
     margin-top: auto; 
 }
 
+
+
+/* encabezado */
+header {
+    align-items: center;
+    justify-content: left;
+}
+#ciudad-sust {
+    color: #8d9d90;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+#ciudad {
+    height: 30%;
+    width: 15%;
+}
+#titulo {
+    display: flex;
+}
+
 /*MENU*/
 
 .menu  {
-    display: flex;
     justify-content: right;
     align-items: right;
     width: 100%;
     height: 52px;
-    position: fixed;
     z-index: 100;
     padding: 20px;
     background-color: #878e76;
@@ -36,7 +55,7 @@ ul li a:hover {
 ul li a {
     text-decoration: none;
     color: #ffffff; /*font color*/
-    font-size: x-large;
+    font-size:larger;
     position: relative;
     /*transition: 0.8s all linear;*/
     padding: 0px 7px;
@@ -77,22 +96,6 @@ ul li a:hover::before {
         left: 0;
     }
 }
-
-/* encabezado */
-header {
-    padding: 50px;
-    display: flex;
-    align-items: center;
-}
-#ciudad-sust {
-    color: rgb(74, 146, 105);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 20%;
-}
-#ciudad {
-    height: 30%;
-    width: 15%;
-}
 /*fin de encabezado*/
 
 /*principal*/
@@ -101,10 +104,9 @@ main {
 }
 /*final*/
 
-
 /*pie de página*/
 footer {
-    background-color: rgb(74, 146, 105);
+    background-color: #878e76;
 }
 .blanco {
     color: white;
