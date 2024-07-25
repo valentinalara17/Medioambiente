@@ -1,11 +1,17 @@
 body{
     text-align-last: justify
+
+
 }
 
 .titulos{
     color: black;
     background-color: #BBDB9B;
-    
+    font-family: Ubuntu, sans-serif;
 
 
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
