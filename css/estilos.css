@@ -45,6 +45,7 @@ header {
     padding: 23px;
     position: fixed;
     background-color: #76c893;
+    z-index: 99;
 }
 
 ul {

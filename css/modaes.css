@@ -1,0 +1,21 @@
+
+body {
+    text-align: center;
+}
+
+
+h3 {border-bottom-style:solid;
+    border-color: #abc4a1
+}
+
+h1 {background-color: #abc4a1;
+}
+
+h4 {color: #abc4a1;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
