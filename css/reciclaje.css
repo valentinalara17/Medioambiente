@@ -1,5 +1,6 @@
 
 
+
 .titulos{
     color: black;
     background-color: #BBDB9B;
@@ -38,8 +39,28 @@ h2{
     border-left: 6px solid grey;
     background-color: rgb(223, 223, 223);
 }
+/*imagenes*/
 #tachos{
+    float: right;
+    width: 22%;
+    height: 250px;
+    padding-right: 10px;
+    object-fit: cover;
 
+}
+#botellas{
+    float: right;
+    width: 25%;
+    height: 250px;
+    padding-right: 20px;
+    object-fit: cover;
+}
+#logoPuntoVerde{
+    float: right;
+    width: 150px;
+    height: 100px;
+    padding-right: 20px;
+    object-fit: cover;
 }
 .ordenarAlao{
     display: grid;
@@ -68,4 +89,7 @@ h2{
 }
 #recordar{
     background-color: #d7f2bb;
+}
+.puntoVerde{
+
 }
