@@ -20,9 +20,9 @@ header {
 }
 
 #ciudad-sust {
-    color: #000000;
+    color: #fbfffd;
     font-size: auto;
-    margin-left: 10%;
+    margin-left: 13%;
     align-items: left;
     position: fixed;
     z-index: 100;
@@ -66,6 +66,7 @@ ul li a {
     /*transition: 0.8s all linear;*/
     padding: 0px 7px;
     background-color: #76c893;
+    font-style: italic;
 }
 
 ul li a::before {
@@ -102,31 +103,43 @@ ul li a:hover::before {
         left: 0;
     }
 }
+h1 {
+    font-style: italic;
+}
 /*fin de encabezado*/
 
 /*principal*/
-.intro {
-    padding-top: 100px;
+.card {
+    margin-top: 6%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    background-color: #b5e48c;
 }
-
-.image {
-    width: 1000px;
+#intro {
+    padding-top: 2%;
+    font-style:italic;
+    font-size: large;
 }
-
 main {
     margin-left: 5%;
 }
+h2 {
+    font-style: italic;
+}
+
 /*final*/
 
 
 /*pie de página*/
+h3 {
+    font-size: x-large;
+}
 footer {
     margin-top: auto; 
-    background-color: #878e76;
+    background-color: #73c28e;
 }
 .blanco {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pie {
     display: flex;
@@ -135,6 +148,7 @@ footer {
 }
 #cet-pie {
     font-size: large;
+    font-size: medium;
 }
 #imagen-pie {
     height: 68%;
@@ -142,6 +156,7 @@ footer {
 }
 #texto-pie {
     margin-left: 2%;
+    font-style: italic;
 }
 /* fin de pie */
 
