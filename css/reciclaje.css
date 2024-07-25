@@ -1,8 +1,10 @@
 
 
-titulos{
+.titulos{
     color: black;
     background-color: #BBDB9B;
+    width: 500px;
+    text-align: center;
     font-family: Ubuntu, sans-serif;
 }
 p {
@@ -10,6 +12,7 @@ p {
 }
 h2{ 
     background-color: #abc4a1;
+    width: 400px;
 }
 #colorVerde{
     border-left: 6px solid rgb(33, 163, 7);
@@ -62,4 +65,7 @@ h2{
     width: 400px;
     padding-right: 10px;
     text-align: justify;
+}
+#recordar{
+    background-color: #d7f2bb;
 }
