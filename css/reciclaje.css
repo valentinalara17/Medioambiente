@@ -39,6 +39,10 @@ h2{
     border-left: 6px solid grey;
     background-color: rgb(223, 223, 223);
 }
+#colorCeleste{
+    border-left: 8px solid #168aad;
+    background-color: #ade3f4 ;
+}
 /*imagenes*/
 #tachos{
     float: right;
