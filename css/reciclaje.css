@@ -1,17 +1,71 @@
-body{
-    text-align-last: justify
 
-
-}
 
 .titulos{
     color: black;
     background-color: #BBDB9B;
+    width: 500px;
+    text-align: center;
     font-family: Ubuntu, sans-serif;
-
-
 }
-
 p {
     font-family: Georgia, 'Times New Roman', Times, serif
+}
+h2{ 
+    background-color: #abc4a1;
+    width: 400px;
+}
+#colorVerde{
+    border-left: 6px solid rgb(33, 163, 7);
+    background-color: rgb(176, 255, 186)
+}
+#colorAzul{
+    border-left: 6px solid rgb(6, 3, 174); 
+    background-color: rgb(158, 189, 255);
+}
+#colorNaranja{
+    border-left: 6px solid rgb(242, 121, 0);
+    background-color: rgb(240, 190, 97);
+}
+#colorRojo{
+    border-left: 6px solid red;
+    background-color: rgb(249, 116, 116);
+}
+#colorAmarillo{
+    border-left: 6px solid rgb(255, 255, 0);
+    background-color: rgb(255, 245, 133);
+}
+#colorGris{
+    border-left: 6px solid grey;
+    background-color: rgb(223, 223, 223);
+}
+#tachos{
+
+}
+.ordenarAlao{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+#reducirIzq{
+    text-align: left;
+    float: left;
+    width: 400px;
+    padding-left: 10px;
+    text-align: justify;
+}
+#reutilizarMedio{
+    text-align: center;
+    float: center;
+    width: 400px;
+    padding: center 10px;
+    text-align: justify;
+}
+#reciclarDere{
+    text-align: right;
+    float: right;
+    width: 400px;
+    padding-right: 10px;
+    text-align: justify;
+}
+#recordar{
+    background-color: #d7f2bb;
 }
