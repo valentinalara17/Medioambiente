@@ -126,7 +126,10 @@ main {
 h2 {
     font-style: italic;
 }
-
+p {
+    justify-content: center;
+    padding-right: 4%;
+}
 /*final*/
 
 
