@@ -1,0 +1,242 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Para dejar espacio y que el footer quede pegado abajo de todo */
+body {
+    min-height: 100vh; /*altura del dispositivo*/
+    display: flex;
+    flex-direction: column;
+    background-color: #d9ed92;
+
+}
+
+
+/* ENCABEZADO */
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#ciudad-sust {
+    color: #fbfffd;
+    font-size: auto;
+    margin-left: 13%;
+    align-items: left;
+    position: fixed;
+    z-index: 100;
+}
+
+#ciudad {
+    height: 52px;
+    align-items: left;
+    position: fixed;
+    z-index: 100;
+}
+
+/*MENU*/
+
+.menu  {
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 52px;
+    padding: 23px;
+    position: fixed;
+    z-index: 99;
+    background-color: #76c893;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0;
+}
+
+ul li a:hover {
+    color: #184e77; /*color del texto*/
+    background-color:var(--num);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff; /*font color*/
+    font-size:larger;
+    position: relative;
+    /*transition: 0.8s all linear;*/
+    padding: 0px 7px;
+    background-color: #76c893;
+    font-style: italic;
+}
+
+ul li a::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #52b69a; /*effect color*/
+    z-index: -1;
+}
+
+ul li a:hover::before {
+    animation: ani 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes ani {
+    0% {
+        width: 0%;
+        height: 1px;
+        left: 50%;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+        left: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 50px;
+        left: 0;
+    }
+}
+h1 {
+    font-style: italic;
+}
+
+
+
+/* BODY */
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+main {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 60em) {
+    main {
+        padding: 3rem;
+  }
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media (max-width: 60em) {
+    .grid {
+        grid-gap: 3rem;
+    }
+}
+
+.grid__item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    width: calc(33.333% - 50px); /* Adjusting for 3 columns layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid__item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.card__img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card__content {
+    padding: 3rem 3rem;
+}
+
+.card__header {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+}
+
+.card__text {
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+
+.card__btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #3363ff;
+    background-color: #e6ecff;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card__btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+
+.card__btn:hover, .card__btn:active {
+    background-color: #dce4ff;
+}
+
+.card__btn:hover span, .card__btn:active span {
+    margin-left: 1.5rem;
+}
+
+
+
+
+/*PIE DE PÁGINA*/
+footer {
+    margin-top: auto; 
+    background-color: #73c28e;
+    width: 100%;
+    align-items:center;
+}
+
+.pie {
+    border-top: 3px solid #ccc;
+}

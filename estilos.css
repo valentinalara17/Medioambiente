@@ -1,0 +1,166 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Para dejar espacio y que el footer quede pegado abajo de todo */
+body {
+    min-height: 100vh; /*altura del dispositivo*/
+    display: flex;
+    flex-direction: column;
+    background-color: #d9ed92;
+
+}
+
+
+/* encabezado */
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#ciudad-sust {
+    color: #fbfffd;
+    font-size: auto;
+    margin-left: 13%;
+    align-items: left;
+    position: fixed;
+    z-index: 100;
+}
+
+#ciudad {
+    height: 52px;
+    align-items: left;
+    position: fixed;
+    z-index: 100;
+}
+
+/*MENU*/
+
+.menu  {
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 52px;
+    padding: 23px;
+    position: fixed;
+    z-index: 99;
+    background-color: #76c893;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 0;
+}
+
+ul li a:hover {
+    color: #184e77; /*color del texto*/
+    background-color:var(--num);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff; /*font color*/
+    font-size:larger;
+    position: relative;
+    /*transition: 0.8s all linear;*/
+    padding: 0px 7px;
+    background-color: #76c893;
+    font-style: italic;
+}
+
+ul li a::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #52b69a; /*effect color*/
+    z-index: -1;
+}
+
+ul li a:hover::before {
+    animation: ani 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes ani {
+    0% {
+        width: 0%;
+        height: 1px;
+        left: 50%;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+        left: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 50px;
+        left: 0;
+    }
+}
+h1 {
+    font-style: italic;
+}
+/*fin de encabezado*/
+
+/*principal*/
+.card {
+    margin-top: 6%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    background-color: #b5e48c;
+}
+#intro {
+    padding-top: 2%;
+    font-style:italic;
+    font-size: large;
+}
+main {
+    margin-left: 5%;
+}
+h2 {
+    font-style: italic;
+}
+p {
+    justify-content: center;
+    padding-right: 4%;
+    flex-wrap: wrap;
+}
+/*final*/
+
+
+/*pie de página*/
+h3 {
+    font-size: x-large;
+}
+footer {
+    margin-top: auto; 
+    background-color: #73c28e;
+}
+.blanco {
+    color: white;
+}
+.pie {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#cet-pie {
+    font-size: large;
+    font-size: medium;
+}
+#imagen-pie {
+    height: 68%;
+    width: 42%;
+}
+#texto-pie {
+    margin-left: 2%;
+    font-style: italic;
+}
+/* fin de pie */
