@@ -7,3 +7,4 @@ Basado en los Objetivos de Desarrollo Sostenible, identificamos como problemáti
 
 🌱Para contribuir a la solución de este problema, proponemos crear una página web dedicada a ofrecer consejos sobre diversos temas y cómo reducir el uso de elementos no sostenibles. Nuestra idea es que la página web tenga distintas secciones (moda, hogar, etc.) donde se aborden temas relacionados con el medio ambiente, proporcionando información práctica y accesible para fomentar hábitos más sostenibles.
 
+con js 
