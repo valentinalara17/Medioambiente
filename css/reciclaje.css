@@ -1,6 +1,4 @@
 
-
-
 .titulos{
     color: black;
     background-color: #BBDB9B;
@@ -15,6 +13,15 @@ h2{
     background-color: #abc4a1;
     width: 400px;
 }
+
+.titulosTacho{
+    color: black;
+    background-color: #BBDB9B;
+    width: 500px;
+    text-align:justify;
+    font-family: Ubuntu, sans-serif;
+}
+
 #colorVerde{
     border-left: 6px solid rgb(33, 163, 7);
     background-color: rgb(176, 255, 186)
@@ -43,6 +50,12 @@ h2{
     border-left: 8px solid #168aad;
     background-color: #ade3f4 ;
 }
+#texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-align: justify;
+    
+}
 /*imagenes*/
 #tachos{
     float: right;
@@ -50,7 +63,6 @@ h2{
     height: 250px;
     padding-right: 10px;
     object-fit: cover;
-
 }
 #botellas{
     float: right;
@@ -94,6 +106,11 @@ h2{
 #recordar{
     background-color: #d7f2bb;
 }
-.puntoVerde{
-
+#ladrillosCentr{
+    text-align: justify;
+    float: inline-start;
+    width: 100px
+    padding: center 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
+
