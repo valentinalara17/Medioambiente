@@ -17,6 +17,7 @@ h2{
 .titulosTacho{
     color: black;
     background-color: #BBDB9B;
+    border-radius: 100%;
     width: 500px;
     text-align:justify;
     font-family: Ubuntu, sans-serif;
