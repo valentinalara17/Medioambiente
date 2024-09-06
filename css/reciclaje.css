@@ -1,13 +1,18 @@
-
 .titulos{
     color: black;
     background-color: #BBDB9B;
+    border-style:dashed;
     width: 500px;
     text-align: center;
     font-family: Ubuntu, sans-serif;
+    font-style: italic;
+    justify-content: center;
+    padding-right: 4%;
 }
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-style: italic;
+    justify-content: center;
+    padding-right: 4%;
 }
 h2{ 
     background-color: #abc4a1;
@@ -17,10 +22,12 @@ h2{
 .titulosTacho{
     color: black;
     background-color: #BBDB9B;
-    border-radius: 100%;
+    border-radius: 10%;
+
     width: 500px;
     text-align:justify;
     font-family: Ubuntu, sans-serif;
+    font-style: italic;
 }
 
 #colorVerde{
@@ -89,6 +96,7 @@ h2{
     width: 400px;
     padding-left: 10px;
     text-align: justify;
+    font-style: italic;
 }
 #reutilizarMedio{
     text-align: center;
@@ -96,6 +104,7 @@ h2{
     width: 400px;
     padding: center 10px;
     text-align: justify;
+    font-style: italic;
 }
 #reciclarDere{
     text-align: right;
@@ -103,6 +112,7 @@ h2{
     width: 400px;
     padding-right: 10px;
     text-align: justify;
+    font-style: italic;
 }
 #recordar{
     background-color: #d7f2bb;
@@ -111,7 +121,8 @@ h2{
     text-align: justify;
     float: inline-start;
     width: 100px
-    padding: center 10px;
+    padding center: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
+
 
