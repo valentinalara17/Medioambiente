@@ -15,8 +15,14 @@ h1 {background-color: #abc4a1;
 
 h4 {color: #abc4a1;}
 
-.nav-list {
+ul {
     list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centra la lista horizontalmente */
+}
+
+ol{
     margin: 0;
     padding: 0;
     justify-content: center; /* Centra la lista horizontalmente */
