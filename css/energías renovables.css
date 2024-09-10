@@ -1,15 +1,14 @@
 body {
-    text-align: left;
+    color:aquamarine
+}
+h1  {
+    border-color: black;
+    h3 {
+        border-bottom-style:solid;
+        border-color: black;
+    }
+    
 }
 
 
-h3 {border-bottom-style:solid;
-    border-color: #abc4a1
-}
-
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif
-
-}
 
